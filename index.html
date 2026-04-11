@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualização Arquitetônica | Imagens 3D Fotorrealistas</title>
+    <meta name="description" content="Transformamos seus projetos de arquitetura em imagens reais. Renderização 3D, tours virtuais e vídeos em Maringá PR e todo o Brasil.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Botão WhatsApp Flutuante -->
+    <a href="https://wa.me/5516999999999?text=Olá! Gostaria de solicitar um orçamento para visualização arquitetônica." 
+       class="whatsapp-float" target="_blank" rel="noopener" aria-label="Fale conosco no WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="32" height="32">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+    </a>
+
+    <!-- 1. ABERTURA IMPACTANTE (Hero) -->
+    <header id="hero" class="hero">
+        <div class="hero-media">
+            <div class="hero-fallback" aria-hidden="true"></div>
+            <!-- Opcional: adicione seu vídeo em assets/hero-video.mp4 e descomente -->
+            <!-- <video autoplay muted loop playsinline>
+                <source src="assets/hero-video.mp4" type="video/mp4">
+            </video> -->
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Transformamos seus projetos de arquitetura em imagens reais.</h1>
+            <p class="hero-subtitle">Visualização 3D fotorrealista, tours virtuais e vídeos para encantar seus clientes.</p>
+            <div class="hero-cta">
+                <a href="#galeria" class="btn btn-primary">Ver Projetos</a>
+                <a href="#contato" class="btn btn-outline">Pedir Orçamento</a>
+            </div>
+        </div>
+        <a href="#quem-somos" class="hero-scroll" aria-label="Rolar para baixo">
+            <span></span>
+        </a>
+    </header>
+
+    <nav class="nav-main" id="nav-main">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">Taila Garcia</a>
+            <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#quem-somos">Quem Somos</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#antes-depois">Antes e Depois</a></li>
+                <li><a href="#tour">Tour 360°</a></li>
+                <li><a href="#processo">Como Trabalhamos</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#dicas">Dicas</a></li>
+                <li><a href="#contato" class="nav-cta">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- 2. QUEM SOMOS -->
+        <section id="quem-somos" class="section section-quem-somos">
+            <div class="container">
+                <h2 class="section-title">Quem Somos</h2>
+                
+                <div class="quem-somos-grid">
+                    <div class="quem-somos-card">
+                        <h3>Nossa História</h3>
+                        <p>A empresa nasceu com um propósito claro: ajudar arquitetos e clientes a visualizarem o futuro antes mesmo da obra começar. Acreditamos que ver o projeto pronto transforma decisões e acelera vendas.</p>
+                    </div>
+                    <div class="quem-somos-card">
+                        <h3>Nossa Equipe</h3>
+                        <p>Profissionais apaixonados por arquitetura e tecnologia. Cada imagem é criada com cuidado para que cada textura, reflexo e luz transmitam a realidade do seu projeto.</p>
+                        <div class="equipe-fotos">
+                            <!-- Adicione fotos da equipe aqui -->
+                            <div class="equipe-placeholder">Equipe</div>
+                        </div>
+                    </div>
+                    <div class="quem-somos-card">
+                        <h3>Onde Estamos</h3>
+                        <p>Nossa base é em <strong>Maringá, PR</strong>, mas a tecnologia nos permite atender o <strong>Brasil inteiro</strong>. Trabalhamos com envio digital de projetos e entrega online.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. GALERIA DE PROJETOS -->
+        <section id="galeria" class="section section-galeria">
+            <div class="container">
+                <h2 class="section-title">Galeria de Projetos</h2>
+                <p class="section-subtitle">Confira nossa qualidade em cada detalhe</p>
+                
+                <div class="galeria-filtros">
+                    <button class="filtro-btn active" data-categoria="todos">Todos</button>
+                    <button class="filtro-btn" data-categoria="casas">Casas</button>
+                    <button class="filtro-btn" data-categoria="predios">Prédios</button>
+                    <button class="filtro-btn" data-categoria="interiores">Interiores</button>
+                    <button class="filtro-btn" data-categoria="comercios">Comércios</button>
+                </div>
+
+                <div class="galeria-grid">
+                    <!-- Adicione suas imagens reais - placeholders abaixo -->
+                    <article class="galeria-item" data-categoria="casas">
+                        <img src="assents/img/fachada/Render 01.png" alt="Casa moderna">
+                        <div class="galeria-overlay"><span>Residencial</span></div>
+                    </article>
+                    <article class="galeria-item" data-categoria="predios">
+                        <img src="assents/img/edificio/predio shopping.jpeg" alt="Edifício comercial">
+                        <div class="galeria-overlay"><span>Edifício</span></div>
+                    </article>
+                    <article class="galeria-item" data-categoria="predios">
+                        <img src="assents/img/edificio/Render Prédio.jpeg" alt="Edifício comercial">
+                        <div class="galeria-overlay"><span>Edifício</span></div>
+                    </article>
+                    <article class="galeria-item" data-categoria="interiores">
+                        <img src="assents/img/projeto interiores/Quarto 1.jpeg" alt="Sala de estar">
+                        <div class="galeria-overlay"><span>Interior</span></div>
+                    </article>
+                    <article class="galeria-item" data-categoria="comercios">
+                        <img src="assents/img/comercial/Criativo Cafeteria.jpeg" alt="Loja comercial">
+                        <div class="galeria-overlay"><span>Comércio</span></div>
+                    </article>
+                    <article class="galeria-item" data-categoria="casas">
+                        <img src="assents/img/fachada/Render noturno.png" alt="Casa com piscina">
+                        <div class="galeria-overlay"><span>Residencial</span></div>
+                    </article>
+                    <article class="galeria-item" data-categoria="interiores">
+                        <img src="assents/img/projeto interiores/Quarto 2.jpeg" alt="Cozinha moderna">
+                        <div class="galeria-overlay"><span>Interior</span></div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. ANTES E DEPOIS (Slider interativo) -->
+        <section id="antes-depois" class="section section-antes-depois">
+            <div class="container">
+                <h2 class="section-title">O "Mágico" Antes e Depois</h2>
+                <p class="section-subtitle">Arraste a barra para comparar o desenho técnico com a imagem final</p>
+                
+                <div class="slider-wrapper">
+                    <div class="antes-depois-slider">
+                        <div class="antes-depois-img antes">
+                            <img src="assents/img/antes e dps/Cozinha 1.png" alt="COZINHA E SA">
+                        </div>
+                        <div class="antes-depois-img depois">
+                            <img src="assents/img/antes e dps/COZINHA E SALA.jpg.jpeg" alt="Imagem fotorrealista final">
+                        </div>
+                        <div class="slider-handle">
+                            <div class="slider-line"></div>
+                            <div class="slider-thumb">
+                                <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                                    <path d="M8 5v14l11-7z"/>
+                                </svg>
+                                <span>Arraste</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. TOUR VIRTUAL 360° -->
+        <section id="tour" class="section section-tour">
+            <div class="container">
+                <h2 class="section-title">Passeio Virtual e Vídeos</h2>
+                <p class="section-subtitle">Não entregamos apenas fotos — explore ambientes em 360°</p>
+                
+                <div class="tour-wrapper">
+                    <div class="tour-360">
+                        <!-- Substitua pelo seu viewer 360° real (ex: Pannellum, Marzipano, ou iframe) -->
+                        <div class="tour-placeholder">
+                            <p>Clique e arraste para girar a câmera</p>
+                            <p class="tour-demo">Tour 360° — Adicione seu viewer aqui</p>
+                            <!-- Exemplo com iframe de serviço 360: <iframe src="..." ...></iframe> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. COMO TRABALHAMOS -->
+        <section id="processo" class="section section-processo">
+            <div class="container">
+                <h2 class="section-title">Como Trabalhamos</h2>
+                <p class="section-subtitle">Três passos simples do seu desenho às imagens prontas</p>
+                
+                <div class="processo-steps">
+                    <div class="processo-step">
+                        <span class="processo-num">1</span>
+                        <h3>Envio do Projeto</h3>
+                        <p>Você nos manda seu desenho, planta ou ideia por e-mail ou formulário.</p>
+                    </div>
+                    <div class="processo-step">
+                        <span class="processo-num">2</span>
+                        <h3>Criação</h3>
+                        <p>Nossa equipe modela e ilumina tudo com tecnologia de ponta.</p>
+                    </div>
+                    <div class="processo-step">
+                        <span class="processo-num">3</span>
+                        <h3>Entrega</h3>
+                        <p>Você recebe imagens e vídeos prontos para encantar seus clientes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. DEPOIMENTOS -->
+        <section id="depoimentos" class="section section-depoimentos">
+            <div class="container">
+                <h2 class="section-title">O que Nossos Clientes Dizem</h2>
+                
+                <div class="depoimentos-grid">
+                    <blockquote class="depoimento">
+                        <p>"O trabalho da equipe ajudou meu cliente a decidir os acabamentos da casa em tempo recorde!"</p>
+                        <footer>— Arquiteto Fulano, São Carlos</footer>
+                    </blockquote>
+                    <blockquote class="depoimento">
+                        <p>"As imagens fotorrealistas foram decisivas para aprovação do projeto na prefeitura."</p>
+                        <footer>— Eng. Ciclana, Ribeirão Preto</footer>
+                    </blockquote>
+                    <blockquote class="depoimento">
+                        <p>"Entrega rápida e qualidade excepcional. Já indico para outros colegas."</p>
+                        <footer>— Arq. Beltrano, Campinas</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. DIFERENCIAIS TÉCNICOS -->
+        <section id="diferenciais" class="section section-diferenciais">
+            <div class="container">
+                <h2 class="section-title">Diferenciais Técnicos</h2>
+                <p class="section-subtitle">Tecnologia a serviço do seu projeto</p>
+                
+                <div class="diferenciais-content">
+                    <p>Usamos os computadores mais potentes do mercado para garantir que cada <strong>sombra</strong> e <strong>reflexo</strong> pareçam reais, com prazos curtos. Investimos em software e hardware de ponta para entregar melhor e mais rápido.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 9. DICAS -->
+        <section id="dicas" class="section section-dicas">
+            <div class="container">
+                <h2 class="section-title">Dicas</h2>
+                <p class="section-subtitle">Mostre sua autoridade no assunto</p>
+                
+                <div class="dicas-grid">
+                    <article class="dica-card">
+                        <h3>Como a iluminação muda um ambiente</h3>
+                        <p>A direção da luz, natural ou artificial, transforma completamente a percepção de um espaço. Imagens 3D bem iluminadas ajudam o cliente a tomar decisões certeiras.</p>
+                    </article>
+                    <article class="dica-card">
+                        <h3>Por que imagens 3D vendem imóveis mais rápido</h3>
+                        <p>O cérebro humano processa imagens 60 mil vezes mais rápido que texto. Projetos visualizados vendem mais e reduzem o tempo de fechamento.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 10. CONTATO E ORÇAMENTO -->
+        <section id="contato" class="section section-contato">
+            <div class="container">
+                <h2 class="section-title">Contato e Orçamento</h2>
+                <p class="section-subtitle">Envie seu projeto e receba uma proposta</p>
+                
+                <form class="form-contato" action="#" method="post">
+                    <div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" required placeholder="Seu nome completo">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" required placeholder="seu@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="projeto">Anexar arquivo do projeto</label>
+                        <input type="file" id="projeto" name="projeto" accept=".dwg,.dxf,.skp,.max,.rvt,.pdf,.zip" placeholder="Planta, modelo 3D ou PDF">
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="4" placeholder="Conte-nos sobre seu projeto..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Enviar Solicitação</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 — Taila Garcia. Maringá, PR.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
