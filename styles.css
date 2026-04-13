@@ -106,25 +106,7 @@ a { color: var(--color-accent); text-decoration: none; }
     overflow: hidden;
 }
 
-@media (max-width: 768px){
-    .hero-media video{
-        object-position: 60% top;
-    }
 
-    .hero-fallback{
-        background-position: 60% top;
-        background-size: cover;
-    }
-
-    .hero-content{
-        padding: 1.5rem;
-    }
-
-    .hero-content h1{
-        font-size: 3rem;
-        line-height: 1.1;
-    }
-}
 .hero-media {
     position: absolute;
     inset: 0;
